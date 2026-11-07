@@ -1,0 +1,12 @@
+# Exclude build artifacts
+# Do not edit manually 
+*.jpeg binary
+
+*.html linguist-vendored
+build/* linguist-vendored
+*.rs linguist-detectable
+*.gif binary
+public/**/*.html linguist-vendored
+yarn.lock linguist-generated
+*.sh text eol=lf
+*.woff2 binary
